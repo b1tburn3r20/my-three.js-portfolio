@@ -197,7 +197,7 @@ const projects = [
   {
     name: "WeSpeak",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "WeSpeak revolutionizes Spanish language learning by offering personalized conversations with an AI-powered virtual teacher. Through personalized topics and dynamic interactions, users can enjoy a more engaging and effective approach compared to conventional methods.",
     tags: [
       {
         name: "react",
