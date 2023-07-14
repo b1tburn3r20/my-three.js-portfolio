@@ -115,13 +115,27 @@ const Contact = () => {
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
+          <div className="connect-me flex justify-around">
+            <button
+              type='submit'
+              className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+            >
+              {loading ? "Sending..." : "Send"}
+            </button>
+            <button
+              type='button'
+              className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+              onClick={() => window.open('https://github.com/b1tburn3r20', '_blank')}
+            >GitHub
+            </button>
+            <button
+              type='button'
+              className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+              onClick={() => window.location.href = 'https://docs.google.com/document/d/1ar2LZzalqOF8KsRUGfVvmSFHCEkWKH27qq1UvkuFdhI/export?format=pdf'}
+            >Resumé
+            </button>
+          </div>
 
-          <button
-            type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
-          >
-            {loading ? "Sending..." : "Send"}
-          </button>
         </form>
       </motion.div>
 
