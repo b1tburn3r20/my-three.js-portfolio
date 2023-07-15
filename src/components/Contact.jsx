@@ -132,7 +132,7 @@ const Contact = () => {
               type='button'
               className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary my-2'
               onClick={() => window.location.href = 'https://docs.google.com/document/d/1ar2LZzalqOF8KsRUGfVvmSFHCEkWKH27qq1UvkuFdhI/export?format=pdf'}
-            >Resumé
+            >Résumé
             </button>
           </div>
         </form>
