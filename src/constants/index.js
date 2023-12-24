@@ -219,16 +219,16 @@ const projects = [
     source_code_link: "https://github.com/b1tburn3r20/SpeakUpWeb",
   },
   {
-    name: "WeSpeak",
+    name: "Hyperion V2",
     description:
-      "WeSpeak revolutionizes Spanish language learning by offering personalized conversations with an AI-powered virtual teacher. Through personalized topics and dynamic interactions, users can enjoy a more engaging and effective approach compared to conventional methods.",
+      "A personal side project blog I built for myself to keep myself busy and house cool new things going on with me, along with media and information I find interesting and want to share.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "openai api",
+        name: "youtube api",
         color: "pink-text-gradient",
       },
       {
@@ -242,7 +242,7 @@ const projects = [
 
     ],
     image: jobit,
-    source_code_link: "https://github.com/b1tburn3r20/Spanish-Chatbot",
+    source_code_link: "https://github.com/b1tburn3r20/HyperionV2",
   },
   {
     name: "Night Owl",

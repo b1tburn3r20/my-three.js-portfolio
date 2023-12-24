@@ -31,7 +31,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./speakup.png";
-import jobit from "./wespeak.png";
+import jobit from "./hyperionv2.png";
 import tripguide from "./nightowl.png";
 
 export {
