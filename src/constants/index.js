@@ -6,11 +6,13 @@ import {
   javascript,
   typescript,
   html,
+  nextjs,
   css,
   reactjs,
   redux,
   tailwind,
   nodejs,
+  firebase,
   mongodb,
   git,
   figma,
@@ -23,6 +25,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  mysql,
+  bunjs,
 } from "../assets";
 
 export const navLinks = [
@@ -73,10 +77,6 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
@@ -87,6 +87,10 @@ const technologies = [
   {
     name: "Node JS",
     icon: nodejs,
+  },
+  {
+    name: "Bun",
+    icon: bunjs
   },
   {
     name: "MongoDB",
@@ -100,6 +104,18 @@ const technologies = [
     name: "git",
     icon: git,
   },
+  {
+    name: "Next JS",
+    icon: nextjs,
+  },
+  {
+    name: "Firebase",
+    icon: firebase,
+  },
+  {
+    name: "mysql",
+    icon: mysql
+  }
 ];
 
 const experiences = [
@@ -165,6 +181,14 @@ const testimonials = [
     designation: "IT Product Director",
     company: "RSM US LLP",
     image: "https://i.imgur.com/IJ7RR1H.png",
+  },
+  {
+    testimonial:
+      "Alejandro's methodical approach to complex challenges and superior communication skills made him an invaluable team player. I wholeheartedly recommend Alejandro for any future engagements he seeks in the software engineering field.",
+    name: "Hayk Mnatsakanyan",
+    designation: "Teaching Instructor",
+    company: "General Assembly",
+    image: "https://avatars.githubusercontent.com/u/70010037?v=4",
   },
 ];
 
