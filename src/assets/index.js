@@ -23,7 +23,7 @@ import threejs from "./tech/threejs.svg";
 import nextjs from "./tech/nextjs.png"
 import firebase from "./tech/firebase.png"
 import mysql from "./tech/mysql.png"
-import bunjs from "./tech/bunjs.webp"
+import bunjs from "./tech/python.jpg"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";

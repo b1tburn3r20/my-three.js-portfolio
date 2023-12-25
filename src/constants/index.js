@@ -114,7 +114,7 @@ const technologies = [
   },
   {
     name: "mysql",
-    icon: mysql
+    icon: mysql,
   }
 ];
 
